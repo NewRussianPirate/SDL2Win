@@ -369,7 +369,7 @@ namespace SDL2Win
             }
         }
 
-        protected void Dispose(bool disposing)
+        protected virtual void Dispose(bool disposing)
         {
             DisposeCheck();
             SDL_DestroyWindow(WindowHandle);
