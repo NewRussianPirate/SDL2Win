@@ -3,7 +3,7 @@
 namespace SDL2Win.Drawing
 {
     [StructLayout(LayoutKind.Sequential)]
-    public class SizeF : IEquatable<SizeF>
+    public struct SizeF : IEquatable<SizeF>
     {
         public float Width;
         public float Height;
